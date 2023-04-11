@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    width: max(350px, 50%);
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+.input-item input{
+    width: 100%;
+    padding: 10px 5px 10px 0;
+    background-color: rgb(190, 182, 182);
+    border: none;
+}
+.input-item input::placeholder {
+    color: white;
+}
+.input-item textarea {
+    width: 100%;
+}
+#submit {
+    width: 50%;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    /* margin-left: auto; */
+}
