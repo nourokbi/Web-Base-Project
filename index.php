@@ -6,34 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Registration Form</title>
+
+    <script defer src="./main.js"></script>
 </head>
 <body>
     <main>
         <div class="container">
-            <form action="">
+            <form id="form" action="">
                 <div class="input-item">
                     <label for="">Full Name</label>
-                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="text" name="name" id="name" placeholder="Full Name">
+                    <div class="error"></div>
                 </div>
                 <div class="input-item">
                     <label for="">Username</label>
-                    <input type="text" name="uname" placeholder="Username" required>
+                    <input type="text" name="uname" id="uname" placeholder="Username" >
+                    <div class="error"></div>
                 </div>
                 <div class="input-item">
                     <label for="">Email</label>
-                    <input type="email" name="email" placeholder="E-mail" required>
+                    <input type="text" name="email" id="email" placeholder="E-mail" >
+                    <div class="error"></div>
                 </div>
                 <div class="input-item">
                     <label for="">Password</label>
-                    <input type="password" name="password" placeholder="Password" required>
+                    <input type="password" name="password" id="password" placeholder="Password" >
+                    <div class="error"></div>
                 </div>
                 <div class="input-item">
                     <label for="">Confirm Password</label>
-                    <input type="password" name="c-password" placeholder="Confirm Password" required>
+                    <input type="password" name="c-password" id="c-password" placeholder="Confirm Password" >
+                    <div class="error"></div>
                 </div>
                 <div class="input-item">
                     <label for="">Birth Date</label>
-                    <input type="date" name="birth" placeholder="" required>
+                    <input type="date" name="birth" id="birth" placeholder="" >
                 </div>
                 <div class="input-item">
                     <label for="">Address</label>
