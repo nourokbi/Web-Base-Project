@@ -12,7 +12,7 @@
 <body>
     <main>
         <div class="container">
-            <form id="form" action="">
+            <form id="form" action="/">
                 <div class="input-item">
                     <label for="">Full Name</label>
                     <input type="text" name="name" id="name" placeholder="Full Name">
@@ -41,6 +41,7 @@
                 <div class="input-item">
                     <label for="">Birth Date</label>
                     <input type="date" name="birth" id="birth" placeholder="" >
+                    <div class="error"></div>
                 </div>
                 <div class="input-item">
                     <label for="">Address</label>

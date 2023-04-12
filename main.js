@@ -77,7 +77,7 @@ const validateInputs = () => {
     if(cpasswordValue === '') {
         setError(cpassword, 'Please confirm your password');
     } else if (cpasswordValue !== passwordValue) {
-        setError(cpassword, "Passwords doesn't match");
+        setError(cpassword, "Passwords don't match");
     } else {
         setSuccess(cpassword);
     }
