@@ -12,7 +12,7 @@
 <body>
     <main>
         <div class="container">
-            <form id="form" action="/">
+            <form id="form" action="/" method="post">
                 <div class="input-item">
                     <label for="">Full Name</label>
                     <input type="text" name="name" id="name" placeholder="Full Name">
