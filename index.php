@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Registration Form</title>
+    <title>Sign Up</title>
 </head>
 <body>
     <?php 
@@ -40,14 +40,12 @@
                     </div>
                 </div>
                 <div class="inputs">
-
                     <div class="input-item">
                         <label for="">Birth Date</label>
                         <input type="date" name="birth">
                     </div>
                     <div class="input-item">
                         <label for="">Address</label>
-                        <!-- <textarea name="address" id="address" cols="30" rows="10"></textarea> -->
                         <input type="text" name="address">
                     </div>
                 </div>
