@@ -42,6 +42,10 @@ header ul a {
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 1px;
+  transition: all 0.3s;
+}
+header ul a:hover {
+  color: var(--main-clr);
 }
 
 main {
