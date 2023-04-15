@@ -20,7 +20,7 @@
                     <label for="image-input" id="image">
                         <img src="images/plus.png" alt="">
                     </label>
-                    <p>Add Image</p>
+                    <p id="image-status">Add Image</p>
                     <input type="file" name="image" accept="image/*" id="image-input" multiple>
                 </div>
                 <div class="input-item">
