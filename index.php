@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
     <title>Sign Up</title>
 </head>
 <body>
@@ -15,6 +16,13 @@
         <div class="container">
             <h1>Sign <span class="green">Up</span></h1>
             <form action="">
+                <div class="image-input-item">
+                    <label for="image-input" id="image">
+                        <img src="images/plus.png" alt="">
+                    </label>
+                    <p>Add Image</p>
+                    <input type="file" name="image" accept="image/*" id="image-input" multiple>
+                </div>
                 <div class="input-item">
                     <label for="">Email</label>
                     <input type="email" name="email">
@@ -50,7 +58,7 @@
                     </div>
                 </div>
                 <div class="submit">
-                    <input type="submit" name="" id="submit" value="Register">
+                    <input type="submit" id="submit" value="Register">
                 </div>
                 
             </form>

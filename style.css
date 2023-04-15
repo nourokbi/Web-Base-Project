@@ -3,13 +3,16 @@
   box-sizing: border-box;
   font-family: "Chivo Mono", monospace;
 }
+:root {
+  --main-clr: #43b05c;
+}
 body {
   margin: 0;
   background-color: #ddd;
 }
 .green,
 .active {
-  color: #2aad7a;
+  color: var(--main-clr);
   font-weight: 700;
 }
 br {
@@ -57,7 +60,7 @@ h1 {
   text-align: center;
   padding-bottom: 10px;
   border-bottom: 2px solid #ddd;
-  margin-bottom: 45px;
+  margin-block: 0 20px;
 }
 form {
   width: 100%;
@@ -68,6 +71,26 @@ input {
   padding: 10px;
   border: none;
   border: 2px solid #ddd;
+}
+.image-input-item {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.image-input-item img {
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+#image-input {
+  display: none;
+}
+.image-input-item p {
+  margin-block: 5px;
 }
 .inputs {
   display: flex;
@@ -98,19 +121,18 @@ input {
   border-radius: 5px;
   border: none;
   margin-top: 15px;
-  background-color: #2aad7a;
+  background-color: var(--main-clr);
   color: white;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 1px;
 }
 footer {
-  padding: 10px 10px;
   text-align: center;
   background-color: white;
   width: 100%;
   position: absolute;
-  bottom: 1;
+  bottom: 0px;
 }
 
 @media (max-width: 550px) {
