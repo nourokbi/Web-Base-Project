@@ -6,6 +6,7 @@ const password = document.getElementById('password');
 const cpassword = document.getElementById('c-password');
 const birthDate = document.getElementById('birth');
 
+//a listener on submit...
 form.addEventListener('submit', e => {
     e.preventDefault();
 

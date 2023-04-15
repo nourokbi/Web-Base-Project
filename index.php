@@ -15,6 +15,7 @@
             <form id="form" action="/" method="post">
                 <div class="input-item">
                     <label for="">Full Name</label>
+                    <!--added IDs to use in validation-->
                     <input type="text" name="name" id="name" placeholder="Full Name">
                     <div class="error"></div>
                 </div>

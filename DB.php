@@ -24,8 +24,8 @@ $birth=$_POST["birth"];
 $address=$_POST["address"];
 
 if(isset($_POST['submit'])){
-    //isset mean that i press the button
-    
+    //isset mean that i press the button.
+
     if(!preg_match("/^[a-zA-Z]*$/",$username)){
         echo "Invalid Username...:(";
     }else if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
