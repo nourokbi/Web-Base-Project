@@ -36,6 +36,7 @@ header ul {
   list-style-type: none;
 }
 header ul a {
+  color: black;
   font-size: 18px;
   text-decoration: none;
   cursor: pointer;
